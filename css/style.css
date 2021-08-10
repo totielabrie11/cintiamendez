@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2? family = Dancing + Script & display = swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* reseteo HTML */
+  font-size: 14px;
+}
+
+body {
+  background-color: #ffccff;
+}
+
+header {
+  height: 20rem;
+}
+
+nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  color: #cc3399;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: auto;
+  background-color: #ff99ff;
+  height: 20rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  color: azure;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: 'Dancing Script', cursiva;
+}
+
+h2 {
+  color: azure;
+  font-size: 20px;
+  width: auto;
+  font-style: italic;
+}
+
+.contenedor {
+  width: 34%;
+  height: 10rem;
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.contenedor__section2 {
+  width: 100%;
+  height: 10rem;
+  background-color: white;
+  margin-top: 20px;
+}
+
+div.logo2 {
+  width: 200%;
+  height: auto;
+  background-color: black;
+}
+
+div img {
+  width: 40%;
+}
+/*# sourceMappingURL=style.css.map */
